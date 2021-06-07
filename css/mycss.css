@@ -1,0 +1,60 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+body {
+    background: #55e;
+    color: 555555;
+    font-size: 14px;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+    display: block;
+}
+.wrapper {
+    margin: 20px 0 ;
+    width: 100%;
+}
+
+.wrapper  .cards_wrap {
+    display: flex;
+    flex: wrap;
+}
+
+.cards_wrap .card_item {
+    padding: 20px;
+    width: 20%;
+}
+
+.card_inner {
+    background-color: #fff;
+    width: 220px;
+}
+
+.cards_wrap .card_top {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.cards_wrap .card_bottom {
+    padding: 15px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
